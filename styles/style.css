@@ -2,7 +2,16 @@
 body{
     font-family: Open Sans;
 }
+/* sard style  */
+.text-primary{
+    color: #FD6E0A;
+}
 /* Nav style */
 nav{
     display: flex;
+}
+.nav-title{
+    color: #181818;
+    font-weight: 800;
+    font-size: 45px;
 }
