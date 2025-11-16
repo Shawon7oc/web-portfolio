@@ -2,6 +2,12 @@
 body {
   font-family: Open Sans;
 }
+/* header */
+.header{
+  background-image: url(../images/developer.png),url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
 /* sard style  */
 .text-primary {
   color: #fd6e0a;
@@ -9,13 +15,13 @@ body {
 
 .btn-primary {
   color: #ffffff;
-  font-family: Open Sans;
   font-size: 20px;
   font-weight: bold;
   background-color: #fd6e0a;
   border-radius: 5px;
   border: none;
   padding: 18px 35px;
+  cursor: pointer;
 }
 /* Nav style */
 nav {
@@ -42,4 +48,26 @@ nav li a {
   text-decoration: none;
   font-size: 20px;
   color: #474747;
+}
+
+/* banner styles */
+.banner{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px 0 200px;
+}
+.banner-content{
+  max-width: 585px;
+}
+.banner-greetings{
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+}
+.banner-title{
+  font-weight: bold;
+  font-size: 85px;
+}
+.banner-pic{
+  width: 584px;
 }
