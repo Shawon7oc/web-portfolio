@@ -6,17 +6,37 @@ body {
 .text-primary {
   color: #fd6e0a;
 }
+
+.btn-primary {
+  color: #ffffff;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #fd6e0a;
+  border-radius: 5px;
+  border: none;
+  padding: 18px 35px;
+}
 /* Nav style */
 nav {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 200px;
 }
 .nav-title {
   color: #181818;
   font-weight: 800;
   font-size: 45px;
 }
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
 nav ul li {
   list-style: none;
+  margin-right: 50px;
 }
 nav li a {
   text-decoration: none;
