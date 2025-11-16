@@ -1,25 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-body{
-    font-family: Open Sans;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+body {
+  font-family: Open Sans;
 }
 /* sard style  */
-.text-primary{
-    color: #FD6E0A;
+.text-primary {
+  color: #fd6e0a;
 }
 /* Nav style */
-nav{
-    display: flex;
+nav {
+  display: flex;
 }
-.nav-title{
-    color: #181818;
-    font-weight: 800;
-    font-size: 45px;
+.nav-title {
+  color: #181818;
+  font-weight: 800;
+  font-size: 45px;
 }
-nav ul li{
-    list-style: none;
+nav ul li {
+  list-style: none;
 }
-nav li a{
-    text-decoration: none;
-    font-size: 20px;
-    color: #474747;
+nav li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #474747;
 }
