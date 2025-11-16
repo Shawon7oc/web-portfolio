@@ -3,8 +3,8 @@ body {
   font-family: Open Sans;
 }
 /* header */
-.header{
-  background-image: url(../images/developer.png),url(../images/header_bg.png);
+.header {
+  background-image: url(../images/developer.png), url(../images/header_bg.png);
   background-repeat: no-repeat;
   background-position: top left, bottom right;
 }
@@ -51,23 +51,30 @@ nav li a {
 }
 
 /* banner styles */
-.banner{
+.banner {
   display: flex;
   justify-content: space-between;
   margin: 0 35px 0 200px;
 }
-.banner-content{
+.banner-content {
   max-width: 585px;
 }
-.banner-greetings{
+.banner-greetings {
   color: #474747;
   font-size: 45px;
   font-weight: 600;
 }
-.banner-title{
+.banner-title {
   font-weight: bold;
   font-size: 85px;
 }
-.banner-pic{
+.banner-pic {
   width: 584px;
+}
+.banner-decraption {
+  color: rgba(117, 117, 117, 1);
+  font-size: 18px;
+  font-weight: 400;
+
+  text-align: left;
 }
