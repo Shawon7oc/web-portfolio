@@ -75,10 +75,12 @@ nav li a {
   color: #474747;
   font-size: 45px;
   font-weight: 600;
+  margin-top: 185px;
 }
 .banner-title {
   font-weight: bold;
   font-size: 85px;
+  margin-top: 50px;
 }
 .banner-pic {
   width: 584px;
@@ -106,6 +108,7 @@ main{
 .about-items{
   display: flex;
   justify-content: space-around;
+  padding-top: 30px;
 }
 .item-description{
   font-weight: 600;
